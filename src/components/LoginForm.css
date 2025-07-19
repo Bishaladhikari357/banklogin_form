@@ -1,0 +1,96 @@
+/* LoginForm.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #f0f9ff, #dbeafe);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Logincontainer {
+  background-color: #ffffff;
+  padding: 2.5rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 420px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.Logincontainer h2 {
+  color: #1d4ed8;
+  margin-bottom: 1.8rem;
+  font-size: 2rem;
+}
+
+.Logincontainer input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.75rem;
+  font-size: 1rem;
+  transition: border 0.3s ease;
+  box-sizing: border-box;
+}
+
+.Logincontainer input:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+}
+
+.Logincontainer button {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #2563eb;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.Logincontainer button:hover {
+  background-color: #1e40af;
+}
+
+.Logincontainer p {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #475569;
+}
+
+.Logincontainer a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.Logincontainer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+  .Logincontainer {
+    padding: 1.5rem;
+    margin: 1rem;
+  }
+
+  .Logincontainer h2 {
+    font-size: 1.6rem;
+  }
+
+  .Logincontainer input,
+  .Logincontainer button {
+    font-size: 0.95rem;
+    padding: 0.65rem;
+  }
+}
